@@ -2,9 +2,9 @@ field,index,display
 series name,true,true
 title,true,true
 publisher,true,true
-script,true,true
-pencils,true,true
-inks,true,true
-colors,true,true
-letters,true,true
-editing,true,true
+script,true,false
+pencils,true,false
+inks,true,false
+colors,true,false
+letters,true,false
+editing,true,false
