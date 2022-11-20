@@ -51,8 +51,5 @@ function curPageURL() {
   }
   return $pageURL;
 }
+echo curPageURL();
 ?>
-
-$.getJSON("idcheck.php?callback=?", { url:  "<?php echo curPageURL(); ?>" }, function(json){
-  alert(json.message);
-});
