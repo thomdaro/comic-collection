@@ -4,6 +4,25 @@
 # Curate the timeline by adding a "where" expression to the assign on the first line.
 # For details, see https://collectionbuilder.github.io/cb-docs/docs/advanced/timelinejs/  
 ---
+
+<?php
+function curPageURL() {
+  $pageURL = 'http';
+  if ($_SERVER["HTTPS"] == "on") {$pageURL .= "s";}
+  $pageURL .= "://";
+  if ($_SERVER["SERVER_PORT"] != "80") {
+    $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
+  } else {
+    $pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+  }
+  return $pageURL;
+}
+?>
+
+$.getJSON("idcheck.php?callback=?", { url:  "<?php echo curPageURL(); ?>" }, function(json){
+  alert(json.message);
+});
+
 {%- assign items = site.data[site.metadata] | where_exp: 'item', 'item.date' -%}
 {
     "title": {
