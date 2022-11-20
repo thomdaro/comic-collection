@@ -20,12 +20,12 @@ source-code: https://github.com/thomdaro/z652-sandbox
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Z652 Sandbox
+title: A Decade of Comics
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: demo of CB-GH
+tagline: solving the mystery of a family collection
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "Sandboxed site using Collection Builder and Github Pages as a demo for Z652 (Digital Libraries) at Indiana University"
+description: "Digital Library of the creator's grandfather's comic collection"
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: thomdaro
 
