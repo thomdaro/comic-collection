@@ -32,7 +32,15 @@ gallery: true
         </div> 
     </div>
 
-    {% include feature/timelinejs.html %}
+    <style>
+        .timelinejs {
+            padding-bottom: 25px;
+        }
+    </style>
+
+    <div class="timelinejs">
+        {% include feature/timelinejs.html %}
+    </div>
 
     {%- if site.data.theme.browse-buttons == true -%}
     <div class="text-center">
