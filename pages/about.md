@@ -34,11 +34,11 @@ Lastly, I'd like to thank the fine folks at CollectionBuilder, for providing an 
 
 ### Technical
 
-To be filled in once images are scanned.
+Comic covers were scanned at the Scholar's Commons Digitization Lab at IU's Wells Library – read more about their services [here](https://libraries.indiana.edu/scholars-commons-digitization-lab). Scans were set to output jpegs at custom dimensions for comic book covers (6.55" x 10"), then cropped slightly as needed. The majority of output files are 1965px by 3000px, at a resolution of 300 dpi and bit depth of 24. These parameters were chosen as a compromise between quality and file size – given the the entire collection will eventually be hosted in the Github repository, it is necessary to keep the total size of the Objects folder below 1 GB. The current batch of scans is approximately 50 MB, so the entire collection should only take up ~770 MB when all scans are uploaded.
 
 ### Metadata
 
-CollectionBuilder has a few metadata fields that are required for any project (_objectid_, _filename_, _title_, _format_), as well as some optional fields for visualizations (_date_, _subjects_). Further reading on those fields can be found [here](https://collectionbuilder.github.io/cb-docs/docs/metadata/gh_metadata/).
+CollectionBuilder has a few metadata fields that are required for any project (_objectid_, _filename_, _title_, _format_), as well as some optional fields for visualizations (_date_, _subject_). Further reading on those fields can be found [here](https://collectionbuilder.github.io/cb-docs/docs/metadata/gh_metadata/).
 
 The remainder of the field names were selected from the Grand Comics Database. You can read their formatting documentation [here](https://docs.comics.org/wiki/Formatting_Documentation).
 
