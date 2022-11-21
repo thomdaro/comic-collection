@@ -8,3 +8,4 @@ inks,true,false
 colors,true,false
 letters,true,false
 editing,true,false
+subject,true,false
